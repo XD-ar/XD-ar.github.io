@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LinkedeList和ArrayList的区别"
-subtitle: 'simple'
+subtitle: 'JAVA笔记'
 author: "AR"
 header-style: text
 tags:
@@ -15,7 +15,6 @@ ArrayList是Array(动态数组)的数据结构，LinkedList是Link(链表)的数
 **2、效率不同** 
 
 当随机访问List（get和set操作）时，ArrayList比LinkedList的效率更高，因为LinkedList是线性的数据存储方式，所以需要移动指针从前往后依次查找。  
-
 当对数据进行增加和删除的操作(add和remove操作)时，LinkedList比ArrayList的效率更高，因为ArrayList是数组，所以在其中进行增删操作时，会对操作点之后所有数据的下标索引造成影响，需要进行数据的移动。  
 
 **3、自由性不同**   
